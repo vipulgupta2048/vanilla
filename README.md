@@ -4,12 +4,9 @@ This repository has been created for the sole purpose to learn more about git, g
 Have fun. Practise a lot. Don't fear to do something wrong or break something.
 You will learn more from your mistakes.
 
-Utkarsh Gupta
-@utkarsh2102
-
 Refer the issues, or make an issue yourself if you need help.
 
 Vipul Gupta
-@vipulgupta2045
+@vipulgupta2048
 
 
