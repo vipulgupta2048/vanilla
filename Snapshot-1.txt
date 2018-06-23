@@ -3,4 +3,7 @@
 Enter the names of the Planet as you commit to this.
 
 Mercury - Vipul Gupta 
+Venus,Earth,Mars,Jupiter,Saturn- Naresh Negi
+
+Here is my contribution.
 
