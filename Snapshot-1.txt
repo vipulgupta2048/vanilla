@@ -1,8 +1,4 @@
 ## Task 1
 
-Enter the names of the Planet as you commit to this.
-
-Mercury - Vipul Gupta 
-
-made some changes
+all delete
 
