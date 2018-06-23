@@ -9,3 +9,5 @@ Refer the issues, or make an issue yourself if you need help.
 Vipul Gupta  
 @vipulgupta2048  
 [Mixster](www.mixstersite.wordpress.com)
+
+Here are my contributions to this project - ;-)
