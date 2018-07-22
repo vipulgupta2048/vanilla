@@ -1,0 +1,57 @@
+/** Override Bootstrap **/
+:root{
+    --blue: #467fcf;
+    --primary: #467fcf;
+}
+body{
+    background-color: #f5f7fb;
+    font-family: source sans pro,-apple-system,BlinkMacSystemFont,segoe ui,helvetica neue,Arial,sans-serif;
+    font-size: .9375rem;
+}
+.btn-primary{
+    background-color: #467fcf;
+    border-color: #467fcf;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #316cbe;
+    border-color: #2f66b3;
+}
+.btn-outline-warning:hover{
+    color: #fff;
+}
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.card-body {
+    margin: 0;
+    position: relative;
+}
+.card-title {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+/** Logo and Text Logo **/
+.logo {
+    height: 4rem;
+}
+.logo-text{
+    text-transform: uppercase;
+    font-family: "Roboto Slab", sans-serif;
+    color: #252525;
+}
+.logo-text:hover{
+    text-decoration: none;
+    color: #252525;
+}
+
+/** Login UI **/
+.social-login-badge{
+    font-size: 1.2em;
+}

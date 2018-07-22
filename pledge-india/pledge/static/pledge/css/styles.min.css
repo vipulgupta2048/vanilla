@@ -1,0 +1,323 @@
+footer {
+    background: #da7516 !important;
+    color: #000;
+}
+
+footer h5, footer ul li a {
+    color: #000 !important;
+}
+
+nav, footer .after-footer {
+    background: #ececec !important;
+    color: #000;
+}
+
+.nav-item .nav-link {
+    color: #000 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer .footer-email {
+    background: #ececec !important;
+    color: #000 !important;
+}
+
+footer .email-btn-wrapper {
+    color: #000 !important;
+    border: none !important;
+}
+
+div.jumbotron.hero-technology{
+    color:#ececec;
+    text-align:center;
+    background-size:cover;
+    background-position:center;
+    padding:15px;
+    margin:0;
+}
+
+#home{
+  background-color: #ececec;
+}
+
+#about-us{
+  background-color: #13c7be;
+}
+
+#pledge{
+  background-color: #ececec;
+  color: #000 !important;
+}
+
+h1.hero-title,h2.hero-title,h3.hero-title{
+    text-shadow:0 2px 2px rgba(0,0,0,.3);
+    color:#000;
+    font-weight:500;
+}
+
+p.hero-subtitle{
+    max-width:100%; /* Changed it from 600px */
+    margin:25px auto;
+    padding:10px 15px;
+    color:#1f1c1c;
+    font-weight:500;
+}
+
+@media (max-width:767px){
+    .box{
+          padding:10px;
+    }
+}
+
+@media (max-width:991px){
+    .box{
+          margin:25px;
+    }
+}
+
+@media (max-width:1199px){
+    .box{
+          margin:25px;
+    }
+}
+
+.full-screen-hero{
+    min-height:100vh;
+}
+
+.navigation-clean{
+    padding-top:.75rem;
+    padding-bottom:.75rem;
+    color:#333;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+    margin-bottom:0;
+}
+
+@media (min-width:768px){
+    .navigation-clean{
+          padding-top:1rem;
+          padding-bottom:1rem;
+    }
+}
+
+.navigation-clean .navbar-brand{
+    font-weight:700;
+    color:inherit;
+}
+
+.navigation-clean .navbar-brand:hover{
+    color:#222;
+}
+
+.navigation-clean .navbar-toggler{
+    border-color:#ddd;
+    color: white;
+}
+
+.navigation-clean .navbar-toggler:focus,.navigation-clean .navbar-toggler:hover{
+    background:0 0;
+}
+
+.navigation-clean .form-inline,.navigation-clean .navbar-collapse{
+    border-top-color:#ddd;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link.active,.navigation-clean.navbar-light .navbar-nav .nav-link.active:focus,.navigation-clean.navbar-light .navbar-nav .nav-link.active:hover{
+    color:#8f8f8f;
+    box-shadow:none;
+    background:0 0;
+    pointer-events:none;
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link{
+    padding-left:18px;
+    padding-right:18px;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link{
+    color:#465765;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus,.navigation-clean.navbar-light .navbar-nav .nav-link:hover{
+    color:#37434d!important;
+    background-color:transparent;
+}
+
+.navigation-clean .navbar-nav>li>.dropdown-menu{
+    margin-top:-5px;
+    box-shadow:none;
+    background-color:#fff;
+    border-radius:2px;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item,.navigation-clean .dropdown-menu .dropdown-item:focus{
+    line-height:2;
+    color:#37434d;
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus,.navigation-clean .dropdown-menu .dropdown-item:hover{
+    background:#eee;
+    color:inherit;
+}
+
+body{
+    margin-top:70px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#212529;
+    text-align:left;
+    background-color:#fff;
+}
+
+
+/* Navbar bg color */
+nav {
+    background: #2c3e50;
+}
+
+/* Navbar links color */
+.nav-link{
+    color: white !important;
+    transition: .15s ease-out;
+}
+
+.nav-link:hover {
+    color: #ffc600 !important;
+}
+
+/* This code will ensure that footer always stays at the bottom */
+.middle-section {
+    margin-top: -6px;
+}
+
+@media screen and (min-width: 768px) {
+   .middle-section {
+        min-height: calc(100vh - 144px); /* 144 = 72 + 72 */
+        margin-top: 72px; /* 72 is the height of navbar */
+   }
+}
+
+/* Footer Styles */
+footer {
+    font-family: 'Spectral', serif;
+    background: #111111;
+    color: #999999;
+    width: 100%;
+}
+
+footer ul li a,
+footer ul li a:visited {
+    color: #999999;
+}
+
+footer ul li a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+footer .footer-email {
+    color: #eeeeee;
+    background: #333333;
+    border: none;
+    height: 3em;
+    font-size: 1em;
+    padding-left: 1em;
+    margin: 0 !important;
+    width: 70%;
+}
+
+footer .footer-email:active {
+    color: #eeeeee;
+}
+
+footer input::placeholder {
+    font-size: 0.9em !important;
+    color: #cccccc;
+}
+
+footer h5 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer .footer-subscribe, footer .after-footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer .footer-subscribe h5 {
+    display: inline;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+footer .email-btn-wrapper {
+    /* white-space: nowrap; */
+    border: 1px solid #111111;
+    color: #cccccc;
+    width: 100%;
+}
+
+footer .btn-join {
+    height: 3em;
+    margin-left: -4px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: #222222;
+    color: #cccccc;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer .email-btn-wrapper p {
+    font-size: 0.8em;
+}
+
+footer .after-footer {
+    background: #000000;
+}
+
+footer .after-footer a,
+footer .after-footer a:visited,
+footer .after-footer a:active {
+    color: #444444;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+footer .after-footer a:hover {
+    text-decoration: none;
+    color: #555555;
+}
+
+@media (max-width: 576px) {
+    .after-footer {
+        text-align: center !important;
+        /* padding-left: 0 !important;
+        padding-right: 0 !important; */
+        padding: auto 0 !important;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .after-footer {
+        text-align: center !important;
+        /* padding-left: 0 !important;
+        padding-right: 0 !important; */
+        margin: auto !important;
+    }
+}
+
+@media (min-width: 850px) {
+    .after-footer {
+        padding-right: 10% !important;
+    }
+}
