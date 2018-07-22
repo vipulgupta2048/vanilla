@@ -3,4 +3,6 @@
 Enter the names of the Planet as you commit to this.
 
 Mercury - Vipul Gupta 
+Mars - Deepam Goel
 
+Saturn - Arushi Tetarbe
