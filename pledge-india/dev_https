@@ -1,8 +1,0 @@
-pid=
-foreground=yes
-debug = 7
-cert=/etc/stunnel/stunnel.pem
-[https]
-accept=443
-connect=8000
-TIMEOUTclose=1
