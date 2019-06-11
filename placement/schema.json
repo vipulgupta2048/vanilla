@@ -1,0 +1,15 @@
+{
+  "link": {
+    "type": "string",
+    "required": true
+  },
+  "name": {
+    "type": "Integer",
+    "required": true
+  },
+  "year": {
+    "type": "integer",
+    "max": 2021,
+    "min": 2018
+  }
+}
