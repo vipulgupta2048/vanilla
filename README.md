@@ -11,5 +11,7 @@ Vipul Gupta
 [Mixster](www.mixstersite.wordpress.com)
 
 Here are my contributions to this project - ;-)
+well, What is VCS?
+@fauzank339
 @omi10859
 [omkar.site](omkar.site)
