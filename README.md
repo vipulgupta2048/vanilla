@@ -5,6 +5,7 @@ Have fun. Practise a lot. Don't fear to do something wrong or break something.
 im having fun.
 this is commenting.
 You will learn more from your mistakes.
+life is a gift use it well.
 
 Refer the issues, or make an issue yourself if you need help.
 
