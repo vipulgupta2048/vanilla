@@ -12,5 +12,4 @@ Vipul Gupta
 
 Here are my contributions to this project - ;-)
 @omi10859
-@gyanendra0
 [omkar.site](omkar.site)
