@@ -9,8 +9,8 @@ life is a gift use it well.
 
 Refer the issues, or make an issue yourself if you need help.
 
-Vipul Gupta  
-@vipulgupta2048  
+Afreed
+@AfreedMohammad
 [Mixster](www.mixstersite.wordpress.com)
 
 Here are my contributions to this project - ;-)
