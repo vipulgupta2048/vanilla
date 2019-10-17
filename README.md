@@ -11,5 +11,5 @@ Ratan Gupta
 [Mixster](www.mixstersite.wordpress.com)
 
 Here are my contributions to this project - ;-)
-@omi10859
-[omkar.site](omkar.site)
+@imrg1224
+
