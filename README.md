@@ -9,8 +9,8 @@ This project is for us. You can edit, write, add your name, make some changes or
 
 Refer the issues, or make an issue yourself if you need help.
 
-Vipul Gupta  
-@vipulgupta2048  
+Manas Khatri  
+@manaskhatri1  
 [Mixster](www.mixstersite.wordpress.com)
 
 Here are my contributions to this project - ;-)
