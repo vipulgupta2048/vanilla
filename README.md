@@ -4,7 +4,7 @@ This repository has been created for the sole purpose to learn more about git, g
 Have fun. Practise a lot. Don't fear to do something wrong or break something.
 You will learn more from your mistakes.
 Let's go
-Also, in what language do deaf people think in? #wokethoughts
+Hi, I am new to open source and am learning to resolve merge conflicts.
 
 Refer the issues, or make an issue yourself if you need help.
 
