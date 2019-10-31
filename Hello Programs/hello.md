@@ -1,3 +1,3 @@
 ## Vanilla
 
-**What else did you expect ?**
+**What is your choice ?**
