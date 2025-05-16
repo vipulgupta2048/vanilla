@@ -18,4 +18,4 @@ Here are my contributions to this project - ;-)
 [omkar.site](omkar.site)
 hello this is ayush garg
 <h3 align="center">Visitor's count</h3>
-<p align="center"><img src="https://profile-counter.glitch.me/{priyaa1110}/count.svg/" alt="priyaa1110 Visitor's count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{vanilla}/count.svg/" alt="vanilla Visitor's count" /></p>
