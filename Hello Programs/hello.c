@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf ("vanilla");
+	printf ("vanilla icecream");
 	return 0;
 }
 
