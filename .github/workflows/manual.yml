@@ -30,3 +30,15 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+
+    - name: Create error annotation
+      run: |
+        echo "::error file=app.js,line=10,col=15,endLine=10,endColumn=20,title=Syntax Error::Missing semicolon"
+
+    - name: Create warning annotation  
+      run: |
+        echo "::warning file=src/index.js,line=42,title=Code Smell::Consider refactoring this function"
+
+    - name: Create notice annotation
+      run: |
+        echo "::notice file=README.md,line=1,title=Documentation::Missing title header"
