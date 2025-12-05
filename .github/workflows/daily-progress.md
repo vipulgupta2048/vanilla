@@ -31,9 +31,17 @@ tools:
   github:
     toolsets: [all]
   web-fetch:
-  web-search:
   bash:
 
+engine: copilot
+mcp-servers:
+  tavily:
+    command: npx
+    args: ["-y", "@tavily/mcp-server"]
+    env:
+      TAVILY_API_KEY: "${{ secrets.TAVILY_API_KEY }}"
+    allowed: ["search", "search_news"]
+    
 source: githubnext/agentics/workflows/daily-progress.md@3d982b164c8c2a65fc8da744c2c997044375c44d
 ---
 
