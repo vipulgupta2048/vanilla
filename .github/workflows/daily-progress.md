@@ -20,6 +20,11 @@ network:
     - defaults             # Basic infrastructure
     - python              # Python ecosystem
     - "api.individual.githubcopilot.com"   # Custom domain
+    - "api.enterprise.githubcopilot.com"
+    - "api.github.com"
+    - "github.com"
+    - "raw.githubusercontent.com"
+    - "registry.npmjs.org"
 
 safe-outputs:
   create-discussion:
