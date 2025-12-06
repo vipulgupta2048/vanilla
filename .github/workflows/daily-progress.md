@@ -14,7 +14,12 @@ on:
 
 timeout-minutes: 30
 
-network: defaults
+network:
+  firewall: true           # Enable AWF enforcement
+  allowed:
+    - defaults             # Basic infrastructure
+    - python              # Python ecosystem
+    - "api.individual.githubcopilot.com"   # Custom domain
 
 safe-outputs:
   create-discussion:
