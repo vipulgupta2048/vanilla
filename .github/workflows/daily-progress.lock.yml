@@ -33,10 +33,10 @@
 #
 # on:
 #     workflow_dispatch:
-#     schedule:
+#     # schedule:
 #         # Run daily at 2am UTC, all days except Saturday and Sunday
-#         - cron: "0 2 * * 1-5"
-#     stop-after: +1mo # workflow will no longer trigger after 1 month
+#         # - cron: "0 2 * * 1-5"
+#     # stop-after: +1mo # workflow will no longer trigger after 1 month
 #
 # timeout-minutes: 30
 #
@@ -83,8 +83,6 @@
 #
 # Source: githubnext/agentics/workflows/daily-progress.md@3d982b164c8c2a65fc8da744c2c997044375c44d
 #
-# Effective stop-time: 2026-01-05 22:42:13
-#
 # Job Dependency Graph:
 # ```mermaid
 # graph LR
@@ -95,8 +93,6 @@
 #   create_discussion["create_discussion"]
 #   create_pull_request["create_pull_request"]
 #   detection["detection"]
-#   pre_activation["pre_activation"]
-#   pre_activation --> activation
 #   agent --> add_comment
 #   create_discussion --> add_comment
 #   create_pull_request --> add_comment
@@ -226,8 +222,6 @@
 
 name: "Daily Roadmap Progress"
 "on":
-  schedule:
-  - cron: "0 2 * * 1-5"
   workflow_dispatch: null
 
 permissions: read-all
@@ -239,8 +233,6 @@ run-name: "Daily Roadmap Progress"
 
 jobs:
   activation:
-    needs: pre_activation
-    if: needs.pre_activation.outputs.activated == 'true'
     runs-on: ubuntu-slim
     permissions:
       contents: read
@@ -7830,46 +7822,4 @@ jobs:
           name: threat-detection.log
           path: /tmp/gh-aw/threat-detection/detection.log
           if-no-files-found: ignore
-
-  pre_activation:
-    runs-on: ubuntu-slim
-    outputs:
-      activated: ${{ steps.check_stop_time.outputs.stop_time_ok == 'true' }}
-    steps:
-      - name: Check stop-time limit
-        id: check_stop_time
-        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
-        env:
-          GH_AW_STOP_TIME: 2026-01-05 22:42:13
-          GH_AW_WORKFLOW_NAME: "Daily Roadmap Progress"
-        with:
-          script: |
-            async function main() {
-              const stopTime = process.env.GH_AW_STOP_TIME;
-              const workflowName = process.env.GH_AW_WORKFLOW_NAME;
-              if (!stopTime) {
-                core.setFailed("Configuration error: GH_AW_STOP_TIME not specified.");
-                return;
-              }
-              if (!workflowName) {
-                core.setFailed("Configuration error: GH_AW_WORKFLOW_NAME not specified.");
-                return;
-              }
-              core.info(`Checking stop-time limit: ${stopTime}`);
-              const stopTimeDate = new Date(stopTime);
-              if (isNaN(stopTimeDate.getTime())) {
-                core.setFailed(`Invalid stop-time format: ${stopTime}. Expected format: YYYY-MM-DD HH:MM:SS`);
-                return;
-              }
-              const currentTime = new Date();
-              core.info(`Current time: ${currentTime.toISOString()}`);
-              core.info(`Stop time: ${stopTimeDate.toISOString()}`);
-              if (currentTime >= stopTimeDate) {
-                core.warning(`⏰ Stop time reached. Workflow execution will be prevented by activation job.`);
-                core.setOutput("stop_time_ok", "false");
-                return;
-              }
-              core.setOutput("stop_time_ok", "true");
-            }
-            await main();
 
