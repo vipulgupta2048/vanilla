@@ -7,10 +7,10 @@ description: |
 
 on:
     workflow_dispatch:
-    schedule:
+    # schedule:
         # Run daily at 2am UTC, all days except Saturday and Sunday
-        - cron: "0 2 * * 1-5"
-    stop-after: +1mo # workflow will no longer trigger after 1 month
+        # - cron: "0 2 * * 1-5"
+    # stop-after: +1mo # workflow will no longer trigger after 1 month
 
 timeout-minutes: 30
 
