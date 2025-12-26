@@ -12,6 +12,8 @@ Refer the issues, or make an issue yourself if you need help.
 Manas Khatri  
 @manaskhatri1  
 [Mixster](www.mixstersite.wordpress.com)
+Would love a chance to work on some project with you
+@fauzank339
 
 Here are my contributions to this project - ;-)
 @omi10859
